@@ -1,0 +1,12 @@
+# Targets Python 3.14. Lower bounds are the first releases that ship cp314
+# wheels; pip will resolve to the newest compatible versions.
+fastapi>=0.115.6
+uvicorn[standard]>=0.34.0
+httpx>=0.28.1
+anthropic>=0.69.0
+sentence-transformers>=3.3.1
+scikit-learn>=1.7.1
+numpy>=2.3.3
+feedparser>=6.0.11
+pydantic>=2.10.4
+python-dotenv>=1.0.1
